@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    margin: 0;
+    padding:0%;
+
+}
+
+body {
+    background-color: rgb(221, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section, footer {
+    padding: 16px;
+}
+
+.logos img {
+    width: 100px;
+    height: auto;
+
+
+}
+
+.logos{
+    border: 0px solid gray;
+    background-color: rgb(219, 219, 219); 
+    border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.port {
+    width: 300px;
+    height: auto;
+    border-radius: 400px;
+
+}
+
+footer {
+    background-color: blueviolet;
+
+}
