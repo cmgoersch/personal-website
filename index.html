@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calles Webseite</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
     <header>
-        <h1>(Calle) Carl-Martin Görsch </h1>
+      <h1>Carl-Martin Görsch</h1>
+      <h2>Web Developer</h2>
     </header>
-    <nav id="nav">
-        <a href="#contact">Contact</a>
-        <a href="#bio">Biography</a>
-      </nav>
+    <nav class="nav">
+      <button class="button" href="#contact">Contact</button>
+      <button class="button" href="#bio">Biography</button>
+    </nav>
 
+    <section class="personal">
       <figure>
-        <img class="port"
+        <img
+          class="port"
           src="https://www.madways.de/assets/images/carl_martin_goersch.jpg"
         />
-        <figcaption>
-          Thats me
-        </figcaption>
+        <figcaption>Thats me</figcaption>
       </figure>
-
-      <section id="tag1">
-        <h2>Tags</h2>
-        <p>
-          For example what interests, etc.
-        </p>
-      </section>
-
-      <section id="tag2">
-        <h2>Tags</h2>
-        <p>
-          For example what interests, etc.
-        </p>
-      </section>
-
-      <button class="test">test</button>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Num: 0175/2047880</p>
-        <p>goersch@madways.de</p>
+      <div class="tag">
+        <section class="tag1">
+          <h2>Tags</h2>
+          <p>For example what interests, etc.</p>
         </section>
 
+        <section class="tag2">
+          <h2>Tags</h2>
+          <p>For example what interests, etc.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Num: 0175/2047880</p>
+      <p>goersch@madways.de</p>
+    </section>
+
     <section class="logos">
+      <div class="logos_box">
         <img
-        src="https://cdn.iconscout.com/icon/free/png-512/github-1521500-1288242.png"
-      />
+          src="https://cdn.iconscout.com/icon/free/png-512/github-1521500-1288242.png"
+        />
         <a href="https://github.com/neuefische" target="_blank">GitHub</a>
-    </section>
-
-    <section class="logos">
+      </div>
+      <div class="logos_box">
         <img
-        src="https://cdn.iconscout.com/icon/free/png-512/linkedin-2662666-2213265.png"
-      />
+          src="https://cdn.iconscout.com/icon/free/png-512/linkedin-2662666-2213265.png"
+        />
         <a href="https://de.linkedin.com/" target="_blank">LinkedIn</a>
-    </section>
-        
-    <section class="logos">
+      </div>
+      <div class="logos_box">
         <img
-        src="https://cdn.iconscout.com/icon/free/png-512/codepen-5-457935.png"
-      />
+          src="https://cdn.iconscout.com/icon/free/png-512/codepen-5-457935.png"
+        />
         <a href="https://codepen.io/" target="_blank">Codepen</a>
+      </div>
     </section>
 
-    <section id="about">
+    <div class="about_me">
+      <section class="about">
         <h2>About me</h2>
-        <p>
-          Hi my Name ist Calle
-        </p>
+        <p>Hi my Name ist Calle</p>
       </section>
 
-      <section id=cv">
+      <section class="cv">
         <h2>CV</h2>
         <ul>
           <li>Hi my Name ist Calle</li>
@@ -87,9 +84,10 @@
           <li>Hi my Name ist Calle</li>
         </ul>
       </section>
+    </div>
 
-<footer>
-    <h2>Footer text</h2>
-</footer>
-</body>
+    <footer>
+      <h2>Footer text</h2>
+    </footer>
+  </body>
 </html>
