@@ -1,5 +1,16 @@
-@import ".CSS/html_body";
-@import ".CSS/body.css";
-@import ".CSS/header.css";
-@import ".CSS/nav.css";
-@import ".CSS/style.css";
+@import "./html_body";
+@import "./body.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./style.css";
+@import "./buttons.css";
+
+:root {
+  --primary-color: #161345;
+  --secondary-color: #f00f0f;
+  --backround-color: white;
+}
+
+p {
+  font-size: 12px;
+}
