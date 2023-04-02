@@ -4,13 +4,27 @@
 @import "./nav.css";
 @import "./style.css";
 @import "./buttons.css";
+@import "./about_me.css";
 
 :root {
-  --primary-color: #161345;
-  --secondary-color: #f00f0f;
+  --primary-color: #575757;
+  --secondary-color: #f39200;
   --backround-color: white;
 }
 
-p {
-  font-size: 12px;
+h1 {
+  font-size: 49px;
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
 }

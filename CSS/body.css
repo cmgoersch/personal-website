@@ -1,7 +1,12 @@
-
-html,
-body {
+html {
   margin: 0;
   padding: 0%;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+
   background-color: var(--backround-color);
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

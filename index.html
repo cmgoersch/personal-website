@@ -9,27 +9,49 @@
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav container">
       <button class="button" href="#contact">Contact</button>
       <button class="button" href="#bio">Portfolio</button>
       <button class="button" href="#bio">Biography</button>
     </nav>
-    <header class="header__title">
-      <div>
-        <p>HELLO EVERYBODY, I AM</p>
-        <h1>CALLE</h1>
-        <h2>
-          I am an aspiring <strong>web developer</strong> and a trained
-          <strong>graphic designer</strong>
-        </h2>
-        <button class="button2" href="#bio">Biography</button>
-      </div>
-      <figure>
+    <header>
+      <div class="header__title container">
+        <div>
+          <p>HELLO EVERYBODY, I AM</p>
+          <h1>CALLE</h1>
+          <h2>
+            I am an aspiring <strong>web developer</strong> and a trained
+            <strong>graphic designer</strong>
+          </h2>
+          <button class="button2" href="#bio">Biography</button>
+        </div>
         <img class="port" src="Pictures/portraet.png" />
-      </figure>
+      </div>
     </header>
 
-    <section class="personal">
+    <div class="about_me container">
+      <section class="about">
+        <h2><strong> ABOUT ME</strong></h2>
+        <p>
+          My life consists of a mixture of cultural work, a large circle of
+          friends and network and the fun of my work and the responsibility that
+          comes with it. Besides the happiness of doing what I love, I am
+          passionate about my colleagues.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2 class="element-a"><strong>TOOLS</strong></h2>
+        <section class="skills__list">
+          <p class="element-b">Tool1</p>
+        </section>
+        <section class="skills__list">
+          <p>CSS</p>
+        </section>
+      </section>
+    </div>
+
+    <section class="personal container">
       <div class="tag">
         <section class="tag1">
           <h2>Tags</h2>
@@ -43,13 +65,13 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact container">
       <h2>Contact</h2>
       <p>Num: 0175/2047880</p>
       <p>goersch@madways.de</p>
     </section>
 
-    <section class="logos">
+    <section class="logos container">
       <div class="logos_box">
         <img
           src="https://cdn.iconscout.com/icon/free/png-512/github-1521500-1288242.png"
@@ -70,7 +92,7 @@
       </div>
     </section>
 
-    <div class="about_me">
+    <div class="about_me container">
       <section class="about">
         <h2>About me</h2>
         <p>Hi my Name ist Calle</p>
@@ -91,7 +113,9 @@
     </div>
 
     <footer>
-      <h2>Footer text</h2>
+      <div class="container">
+        <h2>Footer text</h2>
+      </div>
     </footer>
   </body>
 </html>
