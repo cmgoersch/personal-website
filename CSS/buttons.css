@@ -7,28 +7,27 @@
   font-size: 13px;
   margin: 3px 2px;
   cursor: pointer;
-  border-bottom: transparent;
+  border-bottom: solid transparent;
 }
 
 .button:hover {
-  border-bottom: solid #f39200;
+  border-bottom: solid var(--secondary-color);
 }
 
 .button2 {
-  background-color: #f39200;
+  background-color: var(--secondary-color);
   border: none;
   color: white;
   padding: 10px 30px;
   text-align: center;
   font-size: 13px;
   margin: 3px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
+
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
 }
 
 .button2:hover {
-  opacity: 1;
+  transform: scale(1.03);
 }

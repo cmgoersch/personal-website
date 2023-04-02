@@ -1,0 +1,36 @@
+.about_me {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.about {
+  max-width: 50%;
+color: (--primary-color);
+  border: 0px solid none;
+  background-color: none
+  margin: 20px;
+  border-radius: 4px;
+}
+
+.skills {
+    max-width: 50%;
+    border: 0px solid none;
+    background-color: none
+    margin: 20px;
+    border-radius: 4px;
+  }
+
+.skills__list {
+    display: grid;
+    grid: auto-flow dense / 1fr 1fr 1fr;
+    list-style: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 7px;  
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 13px;
+    margin: 3px 2px;
+    
+}
