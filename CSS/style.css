@@ -7,84 +7,16 @@ footer {
   padding: 16px;
 }
 
-.logos img {
-  width: 80%;
-  height: auto;
-}
-
-.logos_box {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(219, 219, 219);
-  margin: 0px;
-  border-radius: 4px;
-}
-
-.logos {
-  width: 100%;
-  gap: 40px;
-  display: flex;
-  border: 0px solid gray;
-  font-weight: bold;
-  align-items: center;
-}
-
-.port {
-  width: 40vw;
-  height: auto;
-  border-radius: 400px;
-}
-
 .personal {
   display: flex;
   flex-direction: row;
 }
 
-.tag {
-}
-
-.tag1 {
-  border: 0px solid gray;
-  background-color: rgb(219, 219, 219);
-  margin: 20px;
-  border-radius: 4px;
-}
-
-.tag2 {
-  border: 0px solid gray;
-  background-color: rgb(219, 219, 219);
-  margin: 20px;
-  border-radius: 4px;
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border: 0px solid gray;
-  background-color: rgb(219, 219, 219);
-  position: static;
-  margin: 20px;
-  border-radius: 4px;
-}
-
-.about_me {
-  display: flex;
-  flex-direction: row;
-}
-
-.about {
-  border: 0px solid gray;
-  background-color: rgb(219, 219, 219);
-  margin: 20px;
-  border-radius: 4px;
-}
-
 footer {
   background-color: rgb(41, 41, 41);
   color: white;
+}
+
+.line {
+  border-bottom: solid 2px var(--primary-color);
 }

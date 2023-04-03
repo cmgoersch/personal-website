@@ -5,6 +5,7 @@
 @import "./style.css";
 @import "./buttons.css";
 @import "./about_me.css";
+@import "./contact.css";
 
 :root {
   --primary-color: #575757;

@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: var(--primary-color);
+  position: static;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 30px 120px 30px 120px; 
+}
+ 

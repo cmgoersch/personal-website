@@ -1,36 +1,57 @@
 .about_me {
   display: flex;
   flex-direction: row;
-  
 }
 
 .about {
   max-width: 50%;
-color: (--primary-color);
+  color: (--primary-color);
   border: 0px solid none;
-  background-color: none
+  background-color: none;
   margin: 20px;
+  padding: 20px;
   border-radius: 4px;
+  line-height: 25px;
 }
 
-.skills {
-    max-width: 50%;
-    border: 0px solid none;
-    background-color: none
-    margin: 20px;
-    border-radius: 4px;
-  }
+.skills1 {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .skills__list {
-    display: grid;
-    grid: auto-flow dense / 1fr 1fr 1fr;
-    list-style: none;
-    color: white;
-    background-color: var(--primary-color);
-    border-radius: 7px;  
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 13px;
-    margin: 3px 2px;
-    
+  list-style: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 10px;
+  margin: 3px 3px;
+}
+
+.icon_color {
+  fill: var(--primary-color);
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 80px 0px 80px;
+  gap: 20px;
+
+  border: 0px solid gray;
+  font-weight: bold;
+  align-items: center;
+}
+
+.logos_box {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  border-radius: 4px;
 }

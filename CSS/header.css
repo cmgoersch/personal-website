@@ -1,3 +1,19 @@
+@media screen and (min-with: 800px) {
+  header {
+    display: flex;
+  }
+
+  .header__title {
+    flex: 2;
+    order: 2;
+  }
+
+  .port {
+    flex: 1;
+    order: 1;
+  }
+}
+
 header {
   background: linear-gradient(
     90deg,
