@@ -1,15 +1,30 @@
+.contact_me {
+  text-align: center;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  align-items: center;
+  align-items: center top;
   text-align: center;
-  color: white;
-  background-color: var(--primary-color);
-  position: static;
-  margin: 20px;
+  color: var(--primary-color);
   border-radius: 4px;
-  padding: 30px 120px 30px 120px; 
 }
- 
+
+.contact_group {
+  width: 30%;
+}
+
+.svg_contact {
+  max-width: 40%;
+  max-height: 40px;
+  fill: var(--primary-color);
+}
+
+.svg_contact2 {
+  max-width: 40%;
+  max-height: 40px;
+  stroke: var(--primary-color);
+}
