@@ -1,0 +1,24 @@
+.cv {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+}
+
+.cl_l {
+  text-align: right;
+  width: 50%;
+}
+
+.cl_r {
+  text-align: left;
+  width: 50%;
+}
+
+.cv_color_sub {
+  font-weight: bold;
+}
+
+.cv_color_head {
+  color: var(--secondary-color);
+  font-weight: bold;
+}

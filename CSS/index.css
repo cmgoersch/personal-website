@@ -6,6 +6,7 @@
 @import "./buttons.css";
 @import "./about_me.css";
 @import "./contact.css";
+@import "./vita.css";
 
 :root {
   --primary-color: #575757;
