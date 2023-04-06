@@ -1,3 +1,19 @@
+@media screen and (min-with: 800px) {
+  header {
+    display: flex;
+  }
+
+  .header__title {
+    flex: 2;
+    order: 2;
+  }
+
+  .port {
+    flex: 1;
+    order: 1;
+  }
+}
+
 header {
   background: linear-gradient(
     90deg,
@@ -6,13 +22,17 @@ header {
     rgba(219, 219, 219, 1) 100%
   );
   color: rgba(255, 255, 255, 0.874);
-
+  min-height: 00px;
   padding: 0px;
 }
 
 .header__title {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  -ms-flex-line-pack: start;
+
   align-items: center;
   color: var(--primary-color);
   padding: 30px 20px 0px 20px;

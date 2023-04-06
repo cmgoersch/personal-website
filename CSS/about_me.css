@@ -1,36 +1,61 @@
 .about_me {
   display: flex;
   flex-direction: row;
-  
 }
 
 .about {
   max-width: 50%;
-color: (--primary-color);
+  color: (--primary-color);
   border: 0px solid none;
-  background-color: none
-  margin: 20px;
+  background-color: none;
+  padding: 20px;
   border-radius: 4px;
+  line-height: 25px;
 }
 
 .skills {
-    max-width: 50%;
-    border: 0px solid none;
-    background-color: none
-    margin: 20px;
-    border-radius: 4px;
-  }
+  padding: 20px;
+}
+
+.skills1 {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.connection {
+  text-align: center;
+  padding: 0px 16px 16px 16px;
+}
 
 .skills__list {
-    display: grid;
-    grid: auto-flow dense / 1fr 1fr 1fr;
-    list-style: none;
-    color: white;
-    background-color: var(--primary-color);
-    border-radius: 7px;  
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 13px;
-    margin: 3px 2px;
-    
+  list-style: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 10px;
+  margin: 3px 3px;
+}
+
+.icon_color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill: var(--primary-color);
+}
+
+.svg {
+  padding: 15px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 0% 20px 0% 20px;
+  gap: 20%;
+  padding: 0px 100px 0px 100px;
+  align-items: center;
 }
