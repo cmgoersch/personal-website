@@ -22,13 +22,17 @@ header {
     rgba(219, 219, 219, 1) 100%
   );
   color: rgba(255, 255, 255, 0.874);
-
+  min-height: 00px;
   padding: 0px;
 }
 
 .header__title {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  -ms-flex-line-pack: start;
+
   align-items: center;
   color: var(--primary-color);
   padding: 30px 20px 0px 20px;
